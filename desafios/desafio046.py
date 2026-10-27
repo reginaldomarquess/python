@@ -7,7 +7,7 @@ inicio = int(input("Inicie a contagem: "))
 final = int(input("Final da contagem: "))
 passo = int(input("Passos da contagem: "))
 
-for contador in range(inicio, final, - 1, -passo):
+for contador in range(inicio, final - 1, -passo):
     print(contador)
     sleep(1)
 print("BOOMMMMMM!!")'''
