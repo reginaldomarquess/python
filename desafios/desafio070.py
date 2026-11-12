@@ -26,7 +26,7 @@ while True:
 
     if valor_produto > 1000:
         produtos1000 = produtos1000 + 1
-        # guardando os nomes na lista que já inicia vazia- agora temos uma tupla(se eu não me engano), pois estamos guardando mais de um item na lista
+        # # Guardando os dados em um dicionário e adicionando-os à lista (criando uma lista de dicionários)
         produto_caro = {'nome': nome_produto, 'preco': valor_produto}
         lista_caros.append(produto_caro)
 
